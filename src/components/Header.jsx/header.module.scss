@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+.boxHeader{
+    .boxTitulo{
+        font-family: "Orbitron", sans-serif;
+        font-weight: lighter;
+    }
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+    background-color: #C0C0C0;
+    .boxMenu{
+        width: 40vw;
+        height: 8vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            text-decoration: none;
+        }
+    }
+    .boxImagem{
+        width: 15vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+

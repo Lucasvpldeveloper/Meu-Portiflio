@@ -6,15 +6,15 @@
         font-family: "Orbitron", sans-serif;
         font-weight: lighter;
     }
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 12vh;
-    background-color: #C0C0C0;
+    background-color: #0D0D0D;
     .boxMenu{
         width: 40vw;
         height: 8vh;
+        font-size: 20px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -23,6 +23,8 @@
         }
     }
     .boxImagem{
+        background-color: #FF6400;
+        border-radius: 10px;
         width: 15vw;
         height: 8vh;
         display: flex;

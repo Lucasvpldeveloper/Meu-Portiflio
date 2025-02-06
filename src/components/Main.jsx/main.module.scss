@@ -3,15 +3,15 @@
 
 .boxMain{
     border: 2px solid red;
-    height: 100vh;
+    height: 250vh;
     background-color: #0D0D0D;
     .boxPrincipal{
-        border: 2px solid red;
+        border: 4px solid green;
         height: 88vh;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        .boxSecundaria{
+        .boxIntroducao{
             width: 35vw;
             height: 40vh;
             display: flex;
@@ -28,7 +28,7 @@
                 font-size: 4em;
                 color: white;
             }
-            h3{
+            h2{
                 margin-top: 10px;
                 color: #ACACAC;
                 font-size: 2em;
@@ -42,22 +42,61 @@
             }
         }
         .boxBola{
-            width: 27vw;
-            height: 27vw;
+            width: 30vw;
+            height: 30vw;
             background-color: #FF6400;
             border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-            div{
-                width: 35vw;
-                height: 60vh;
+            .boxIMG{
+                width: 40vw;
+                height: 60vh;   
                 display: flex;
-                align-items: center;
-                justify-content: center;
+                align-items: center;         
                 img{
                     width: 30vw;
+                    position: relative;
+                                       
                 }
+                .boxVidro{
+                    width: 10vw;
+                    position: absolute;
+                }
+            }
+        }
+    }
+    .boxSecundaria{
+        border: 2px solid blue;
+        height: 100vh;
+        background-color: #141414;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .boxInterna{
+            width: 80vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .boxLucas{
+                img{
+                    width: 400px;
+                    border-radius: 30px;
+                    box-shadow: 1px 1px 8px 8px rgb(0, 0, 0);
+                }
+            }
+            .boxDescricao{
+                width: 500px;
+                h3{
+                    font-size: 3em;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 20px;
+                    color: #A7A7A7;
+                    line-height: 30px;
+                }
+                
             }
         }
     }

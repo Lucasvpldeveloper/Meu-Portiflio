@@ -1,11 +1,13 @@
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 .boxMain{
     height: 188vh;
     background-color: #0D0D0D;
     .boxPrincipal{
-        height: 88vh;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -37,6 +39,7 @@
                 padding: 15px;
                 border: 1px solid #FF6400;
                 background-color: #0D0D0D;
+                cursor: pointer;
             }
         }
         .boxBola{
@@ -65,7 +68,7 @@
         }
     }
     .boxSecundaria{
-        height: 100vh;
+        height: 88vh;
         background-color: #141414;
         display: flex;
         align-items: center;
@@ -75,9 +78,10 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
+            
             .boxLucas{
                 img{
-                    width: 400px;
+                    width: 25vw;
                     border-radius: 30px;
                     box-shadow: 1px 1px 8px 8px rgb(0, 0, 0);
                 }

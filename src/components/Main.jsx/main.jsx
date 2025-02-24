@@ -30,8 +30,21 @@ export default function Main(){
                         <div id="about" className={S.container} >
                             <h3>Sobre mim</h3>
                         </div>
-                        <p>Me chamo Lucas Vinicius, graduando o curso de Analises e Desenvolvimento de Sistemas pela UNINASSAU e desenvolvedor Front-end. Desenvolvo páginas e sistemas web responsívos. Tenho uma trajetória de 4 anos como gerente de posto de gasolina, 1 ano no controle de estoque em uma cafeteria em Portugal e 2 anos como coordenador geral em um Colégio. O que me tornou um profissional dedicado e organizado. Hoje na área de desenvolvimento vivo o aprendizado continuo, Busco oportunidades no mercado como dev e, em um futuro próximo, viso me tornar um desenvolvedor Full Stack.  </p>
+                        <p>Me chamo Lucas Vinicius, graduando o curso de Analises e Desenvolvimento de Sistemas pela UNINASSAU e desenvolvedor Front-end. Desenvolvo páginas e sistemas web responsívos. Tenho uma trajetória de 4 anos como gerente de posto de gasolina, 1 ano no controle de estoque em uma cafeteria em Portugal e 2 anos como coordenador geral em um Colégio. O que me tornou um profissional dedicado e organizado. Hoje na área de desenvolvimento vivo o aprendizado continuo, Busco oportunidades no mercado como dev e, em um futuro próximo, viso me tornar um desenvolvedor Full Stack.</p>
                     </section>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <div>
+                        
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
                 </section>
             </section>
         </main>

@@ -4,15 +4,16 @@
 .boxHeader{
     position: fixed;
     width: 100%;
-    .boxTitulo{
-        font-family: "Orbitron", sans-serif;
-        font-weight: lighter;
-    }
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 12vh;
     background-color: #0D0D0D;
+    .boxTitulo{
+        font-family: "Orbitron", sans-serif;
+        font-weight: lighter;
+    }
     .boxMenu{
         width: 40vw;
         height: 8vh;
@@ -35,3 +36,18 @@
     }
 }
 
+@media (max-width: 480px) {
+    .boxHeader{
+        .boxTitulo{
+            font-size: 1.5em;
+            width: 120px;
+            text-align: center;
+        }
+        .boxMenu{
+            display: none;
+        }
+        .boxImagem{
+            width: 40vw;
+        }
+    }
+}

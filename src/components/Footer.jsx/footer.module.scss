@@ -43,3 +43,19 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+    .boxFooter{
+        height: 100%;
+        .boxCelular{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            .boxIcones{
+                width: 100%;
+            }
+        }
+    }
+}

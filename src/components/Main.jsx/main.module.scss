@@ -106,7 +106,6 @@ html{
         .boxPrincipal{
             display: flex;
             flex-direction: column;
-            border: 2px solid red;
             height: 120vh;
             .boxIntroducao{
                 width: 100%;
@@ -119,8 +118,12 @@ html{
                 h1{
                     font-size: 3em;
                 }
-                button{
-                    width: 100%;
+                a{
+                    width: 80%;
+                    button{
+                        width: 100%;
+                        font-size: 1.5em;
+                    }
                 }
             }
             .boxBola{

@@ -166,3 +166,27 @@ html{
       }
     }
 }
+
+@media (max-width: 768px) {
+    .boxMain{
+        .boxPrincipal{
+            .boxIntroducao{
+                a{
+                    width: 20vw;
+                    button{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .boxSecundaria{
+            .boxInterna{
+                width: 100%;
+                padding-top:10px;
+            }
+            .boxDescricao{
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -51,3 +51,14 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .boxHeader{
+        .boxMenu{
+            width: 50vw;
+        }
+        .boxImagem{
+            width: 20vw;
+        }
+    }
+}

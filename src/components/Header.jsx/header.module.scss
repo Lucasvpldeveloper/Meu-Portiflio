@@ -44,10 +44,12 @@
             text-align: center;
         }
         .boxMenu{
-            display: none;
+            font-size: 12px;
         }
         .boxImagem{
-            width: 40vw;
+            img{
+                width: 20px;
+            }
         }
     }
 }

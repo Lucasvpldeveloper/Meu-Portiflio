@@ -12,7 +12,7 @@ export default function Main(){
                     <p>HELLO WORLD</p>
                     <h1>Eu sou Lucas,</h1>
                     <h2>Desenvolvedor Front-end.</h2>
-                    <a href="https://wa.me/message/QGDJ52S6MKG6K1" target="blank"><button>FALE COMIGO</button></a>
+                    <button><a href="https://wa.me/message/QGDJ52S6MKG6K1" target="blank" >FALE COMIGO</a></button>
                 </section>
                 <section className={S.boxBola}>
                     <div className={S.boxIMG} >

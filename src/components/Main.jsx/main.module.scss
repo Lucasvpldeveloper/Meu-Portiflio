@@ -118,13 +118,14 @@ html{
                 h1{
                     font-size: 3em;
                 }
-                a{
+                button{
                     width: 80%;
-                    button{
-                        width: 100%;
-                        font-size: 1.5em;
+                    font-size: 30px;
+                    a{
+                        text-decoration: none;
                     }
                 }
+                
             }
             .boxBola{
                 width: 250px;

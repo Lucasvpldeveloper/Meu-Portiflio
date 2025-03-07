@@ -34,19 +34,6 @@ export default function Main(){
                     </section>
                 </section>
             </section>
-            <section>
-                <section>
-                    <div>
-                        
-                    </div>
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                </section>
-            </section>
         </main>
         </>
     )
